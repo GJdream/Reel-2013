@@ -7,12 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "FilmList.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [FilmList fillTheArrays];
     return YES;
 }
 							
